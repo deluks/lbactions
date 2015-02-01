@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Toggle Darkmode</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>de.deluks.LaunchBar.action.TDarkmode</string>
+	<key>CFBundleIconFile</key>
+	<string>TNCTemplate</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBScriptName</key>
+			<string>toggle_darkmode.scpt</string>
+			<key>LBRunInBackground</key>
+			<false/>
+			</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>This action enables/disables Darkmode in Yosemite.</string>
+		<key>LBAuthor</key>
+		<string>Lukas Lindinger</string>
+		<key>LBTwitter</key>
+		<string>@deluks</string>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.10</string>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Copy as Minilink</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>de.deluks.LaunchBar.action.CaMinilink</string>
+	<key>CFBundleIconFile</key>
+	<string>CopyActionTemplate</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBScriptName</key>
+			<string>minilink.scpt</string>
+      <key>LBRequiresArgument</key>
+			<true/>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBRunInBackground</key>
+			<false/>
+			</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>This action creates a minilink for the specified URL and copies it to the clipboard.</string>
+		<key>LBAuthor</key>
+		<string>Lukas Lindinger</string>
+		<key>LBTwitter</key>
+		<string>@deluks</string>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.10</string>
+</dict>
+</plist>
